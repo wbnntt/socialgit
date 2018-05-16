@@ -1,0 +1,344 @@
+/* background-image:url("./images/woods.png");*/
+
+
+/* id and class below are needed to display the map */
+#map {
+	height: 100%;
+}
+
+hr {
+	background-color: transparent;
+    border-top: 4px solid #407de;
+}
+
+.maprow {
+	border: 0px solid black;
+	background-color: #ffcc00;
+	color: white;
+	font-size: 20px;
+	padding: 0px;
+	margin-bottom: 5px;
+}
+
+.row {
+	padding: 0px;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+/* above is for the map */
+
+/* GENERAL STYLES */
+.center {
+	text-align: center;
+}
+
+.container {                /* just for the choose image and submit area */
+	width: 100%;
+	background-color:white;
+}
+
+
+.container-fluid {
+	padding: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:white;
+}
+
+/* below is for social css */
+
+/* for post message area */
+button, input, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+}
+
+
+#post_body{
+	font-size: 30px;
+	word-wrap: break-word;
+	height: auto;
+	background-color:white;
+}
+
+#post_text {
+	width:100%;
+	/*min-height: 50px;*/
+	word-wrap: break-word;
+}
+
+/*
+.post_form_area {
+margin-top:60px;
+background-color:white;
+padding-top:10px;
+padding-bottom:10px;
+border-radius: 5px;
+}
+
+.post_form textarea {
+width: 100%;
+min-height: 80px;
+border-radius: 5px;
+border: 2px solid #D3D3D3;
+font-size: 12px;
+margin-right: 5px;
+padding: 0px;
+}
+*/
+
+/* this controls outer container for both likes and comments */
+.newsfeedPostOptions {
+	padding: 0px;
+	text-decoration: none;
+	color:#20AAE5;
+	border: 0px solid black;
+}
+
+/* this controls container for likes */
+.newsfeedPostOptions iframe {
+	border: 1px solid green;
+	height: 25px;
+	width: 120px;
+	margin-top: 5px;
+}
+
+/* this controls container for comments after it is clicked */
+iframe#comment_iframe {
+	border: 1px solid red;
+	max-height: 250px;
+	width: 100%;
+	margin-top: 5px;
+}
+
+/*textarea:focus {
+outline: 0;
+}*/
+
+.post_form input[type="submit"] {
+	width: 11%;
+	border: none;
+	border-radius: 5px;
+	background-color: #3498db;
+	font-family: 'Bellota-BoldItalic', sans-serif;
+	color: #1E75CA;
+	/*text-shadow: #73B6E2 0.5px 0.5px 0px;*/
+	font-size: 90%;
+	outline: 0;
+	margin: 0;
+}
+
+.post_form input[type="submit"]:active {
+	padding: 5px 4px 4px 5px;
+}
+
+#fileToUpload {
+	border-radius: 5px;
+	border: 2px solid #D3D3D3;
+	background-color: white;
+	width: 100%;
+	min-height: 40px;
+	padding: 0px;
+	margin: 1px;
+}
+
+#fileToUpload select{
+	background-color: black;
+
+}
+
+
+#post_button{
+	border-radius: 5px;
+	border: 2px solid #ccccff;
+	padding: 0px;
+	width: 100%;
+	min-height: 40px;
+	background-color: #ccccff;
+	color: black;
+	font-size: 20px;
+}
+
+
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:focus, a:hover {
+	color: black;
+}
+
+
+
+
+.postedImage img {
+	max-width: 100%;
+	display: block;
+	margin: 0px auto;
+}
+
+.post_form {
+	width: 100%;
+}
+
+
+
+.status_post {
+	width: 100%;
+	font-size: 20px;
+	padding: 0px 5px;
+	min-height: 75px;
+	cursor:pointer;
+}
+
+.post_profile_pic {
+	float: left;
+	margin-right: 7px;
+}
+
+.post_profile_pic img {
+	border-radius: 5px;
+}
+
+/* BOXES */
+.blackbox {
+	border: 2px solid black;
+}
+
+.redbox {
+	border: 2px solid red;
+	padding: 0px;
+}
+
+.event_box {
+	border: 1px solid black;
+	text-align: center;
+	color: red;
+	background-color: #ffcc00;
+	padding: 5px;
+}
+
+
+.site-name {
+	font-size: 20px;
+	color: red;
+}
+
+/*NAVIGATION*/
+
+.nav-wrap {
+	border: 10px red;
+}
+
+.navbar, .navbar-inverse {
+	border-radius: 0;
+	border: 1px red;
+	min-height: 150px;
+	color: blue;
+}
+
+/*navigation left side links collapsed*/
+.navbar-header h3{
+	color: black;
+	background-color: #4073de;
+	margin-left: 5px;
+  margin-top: 5px;
+	min-height: 80px;
+}
+
+
+/*navigation right side links*/
+.navbar-nav {
+	float: right;
+	margin: 0;
+	color: black;
+	background-color: #4073de;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+	color: black;
+}
+
+
+
+
+/* hamburger */
+.navbar-toggle {
+	background-color: black;
+	margin-top: 30px;
+}
+
+.navbar-inverse {
+	background-color: white;
+	color: black;
+}
+
+
+.navbar-nav > li > a {
+	padding: 18px;
+}
+
+
+
+
+/*navigation background*/
+.navbar-collapse.collapse {
+	background-color: #4073de;
+	margin: 1px;
+	min-height: 25px;
+
+}
+
+.nav li {
+	display: inline;
+	color: black;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: white;
+	font-family: Lato;
+	font-size: 1.7em;
+	font-weight: 300;
+	/*padding: 30px 25px 33px 25px;*/
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+	background-color: white;
+	transition: 0.7s all linear;
+	height: 100%;
+
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+	background-color: white;
+}
+
+
+
+/*TABLES*/
+
+.table th{
+	border: 2px solid black;
+	background-color: black;
+	color: white;
+}
+
+.table td{
+	border: 1px solid black;
+	background-color: lightgray;
+	padding: 2px;
+}
+
+.share {
+	border: 1px solid black;
+	background-color: lightgreen;
+	padding: 10px;
+	height: 100%;
+}
